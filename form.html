@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1>form</h1>
+    <form action="">
+        <label for="rollno">Roll no.:</label>
+        <input type="number">
+        <br><br>
+        <label for="fname">First Name: </label>
+        <input type="text" required id="fname" minlength="5" maxlenght="20" required>
+        <label for="mname">Middle Name:</label>
+        <input type="text" id="mname" placeholder="Middle name">
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" value="last name" >
+        <br><br>
+        <label for="fname">Father Name</label>
+        <input type="text">
+        <br><br>
+        <label for="">Date of Birth</label>
+        <input type="date">
+        <br><br>
+        <label for="">Mobile no.</label>
+        <input type="number">
+        <br><br>
+        <label for="">E-mail</label>
+        <input type="email">
+        <br><br>
+        <label for="">Password</label>
+        <input type="password">
+        <br><br>
+        <label for="">Gender</label>
+        <br>
+        <input type="radio" name="gender" value="male" id="male"><label for="male">Male</label>
+        <input type="radio" name="gender" value="female" id="female"><label for="female">Female</label>
+        <input type="radio" name="gender" value="other" id="other"><label for="other">other</label>
+        <br><br>
+        <label for="department">Department</label>
+        <br>
+        <input type="checkbox" id="mca" value="mca"><label for="mca">MCA</label>
+        <input type="checkbox" id="it" value="it"><label for="it">IT</label>
+        <input type="checkbox" id="cs" value="cs"><label for="cs">CS</label>
+        <input type="checkbox" id="ai" value="ai"><label for="ai">AI</label>
+        <br><br>
+        <label for="course">Course: </label><input type="file" name="choose file">
+        <br><br>
+        <label for="">Student study year: </label>
+        <select name="year" id="year">
+            <option value="1year">1st year</option>
+            <option value="2year">2nd year</option>
+            <option value="3year">3rd year</option>
+            <option value="4year">4th year</option>
+        </select>
+        <br><br>
+        <label for="photo">Student Photo: </label><input type="file" value="photo" name="photo">
+        <br><br>
+        <label for="">Address: </label>
+        <textarea name="address" id="address" rows="3"></textarea>
+        <br><br>
+        <label for="">Submit</label>
+        <input type="submit"  value="Submit" name="sub">
+        <input type="reset">
+        
+
+
+    </form>
+</body>
+</html>
